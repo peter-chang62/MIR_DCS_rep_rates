@@ -1,0 +1,3 @@
+The CounterWidget class in counter_widget.py has a self.freqs attribute. You can
+ use it to retrieve real time data for your Gui. I would make a "read from
+ counter button" that reads the real time data only whenever you press it.
