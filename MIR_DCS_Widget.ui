@@ -40,7 +40,7 @@
            <item>
             <layout class="QVBoxLayout" name="verticalLayout_6">
              <item>
-              <widget class="QCheckBox" name="checkBox">
+              <widget class="QCheckBox" name="chkbx_mix_down_frep">
                <property name="text">
                 <string>Mixing Down Rep-Rate</string>
                </property>
@@ -56,7 +56,7 @@
                 </widget>
                </item>
                <item row="0" column="1">
-                <widget class="QLineEdit" name="lineEdit">
+                <widget class="QLineEdit" name="le_synth_freq">
                  <property name="text">
                   <string>1010</string>
                  </property>
@@ -73,7 +73,7 @@
              </property>
              <layout class="QVBoxLayout" name="verticalLayout">
               <item>
-               <widget class="QRadioButton" name="radioButton">
+               <widget class="QRadioButton" name="rdbtn_synth_g_frep_comb1">
                 <property name="text">
                  <string>Synthesizer &gt; frep</string>
                 </property>
@@ -83,7 +83,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QRadioButton" name="radioButton_2">
+               <widget class="QRadioButton" name="rdbtn_synth_l_frep_comb1">
                 <property name="text">
                  <string>Synthesizer &lt; frep</string>
                 </property>
@@ -99,7 +99,7 @@
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_3">
               <item>
-               <widget class="QRadioButton" name="radioButton_5">
+               <widget class="QRadioButton" name="rdbtn_synth_g_frep_comb2">
                 <property name="text">
                  <string>Synthesizer &gt; frep</string>
                 </property>
@@ -109,7 +109,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QRadioButton" name="radioButton_6">
+               <widget class="QRadioButton" name="rdbtn_synth_l_frep_comb2">
                 <property name="text">
                  <string>Synthesizer &lt; frep</string>
                 </property>
@@ -147,7 +147,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QLCDNumber" name="lcdNumber">
+            <widget class="QLCDNumber" name="lcd_frep_comb1">
              <property name="minimumSize">
               <size>
                <width>671</width>
@@ -168,7 +168,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QLCDNumber" name="lcdNumber_2">
+            <widget class="QLCDNumber" name="lcd_frep_comb2">
              <property name="minimumSize">
               <size>
                <width>671</width>
@@ -349,7 +349,7 @@
                    </widget>
                   </item>
                   <item row="0" column="1">
-                   <widget class="QLineEdit" name="lineEdit_2"/>
+                   <widget class="QLineEdit" name="le_reg_up_nm"/>
                   </item>
                  </layout>
                 </item>
@@ -363,7 +363,7 @@
                    </widget>
                   </item>
                   <item row="0" column="1">
-                   <widget class="QLineEdit" name="lineEdit_3"/>
+                   <widget class="QLineEdit" name="le_reg_lw_nm"/>
                   </item>
                  </layout>
                 </item>
@@ -407,7 +407,7 @@
                  </widget>
                 </item>
                 <item row="0" column="1">
-                 <widget class="QLineEdit" name="lineEdit_9">
+                 <widget class="QLineEdit" name="le_reg_lw_thz">
                   <property name="readOnly">
                    <bool>true</bool>
                   </property>
@@ -425,7 +425,7 @@
                  </widget>
                 </item>
                 <item row="0" column="1">
-                 <widget class="QLineEdit" name="lineEdit_10">
+                 <widget class="QLineEdit" name="le_reg_up_thz">
                   <property name="readOnly">
                    <bool>true</bool>
                   </property>
@@ -443,7 +443,7 @@
                  </widget>
                 </item>
                 <item row="0" column="1">
-                 <widget class="QLineEdit" name="lineEdit_11">
+                 <widget class="QLineEdit" name="le_reg_bdwdth_thz">
                   <property name="readOnly">
                    <bool>true</bool>
                   </property>
@@ -498,14 +498,14 @@
                 </widget>
                </item>
                <item row="0" column="1">
-                <widget class="QLineEdit" name="lineEdit_7"/>
+                <widget class="QLineEdit" name="le_cw_nm"/>
                </item>
               </layout>
              </item>
              <item>
               <layout class="QFormLayout" name="formLayout_4">
                <item row="0" column="1">
-                <widget class="QLineEdit" name="lineEdit_4"/>
+                <widget class="QLineEdit" name="le_cw_thz"/>
                </item>
                <item row="0" column="0">
                 <widget class="QLabel" name="label_9">
@@ -532,7 +532,7 @@
                   </widget>
                  </item>
                  <item row="0" column="1">
-                  <widget class="QLineEdit" name="lineEdit_5">
+                  <widget class="QLineEdit" name="le_comb1_frep">
                    <property name="minimumSize">
                     <size>
                      <width>141</width>
@@ -553,7 +553,7 @@
                   </widget>
                  </item>
                  <item row="0" column="1">
-                  <widget class="QLineEdit" name="lineEdit_6">
+                  <widget class="QLineEdit" name="le_comb2_frep">
                    <property name="minimumSize">
                     <size>
                      <width>141</width>
@@ -578,7 +578,7 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QLineEdit" name="lineEdit_12">
+                  <widget class="QLineEdit" name="le_comb1_N_CW">
                    <property name="readOnly">
                     <bool>true</bool>
                    </property>
@@ -596,7 +596,7 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QLineEdit" name="lineEdit_13">
+                  <widget class="QLineEdit" name="le_comb2_N_CW">
                    <property name="readOnly">
                     <bool>true</bool>
                    </property>
@@ -626,7 +626,7 @@
                  </property>
                  <layout class="QHBoxLayout" name="horizontalLayout_4">
                   <item>
-                   <widget class="QRadioButton" name="radioButton_7">
+                   <widget class="QRadioButton" name="rdbtn_clock_from_comb1">
                     <property name="text">
                      <string>Comb 1</string>
                     </property>
@@ -636,7 +636,7 @@
                    </widget>
                   </item>
                   <item>
-                   <widget class="QRadioButton" name="radioButton_8">
+                   <widget class="QRadioButton" name="rdbtn_clock_from_comb2">
                     <property name="text">
                      <string>Comb 2</string>
                     </property>
@@ -678,7 +678,7 @@
                 </widget>
                </item>
                <item row="0" column="1">
-                <widget class="QLineEdit" name="lineEdit_8">
+                <widget class="QLineEdit" name="le_desired_delta_N">
                  <property name="maximumSize">
                   <size>
                    <width>70</width>
@@ -690,7 +690,7 @@
               </layout>
              </item>
              <item>
-              <widget class="QCheckBox" name="checkBox_2">
+              <widget class="QCheckBox" name="chkbx_use_counter_freps">
                <property name="text">
                 <string>Use Rep Rates from Counter</string>
                </property>
